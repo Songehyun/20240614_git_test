@@ -1,1 +1,9 @@
 /* 추가됨 */
+
+body > #title {
+  color: turquoise;
+}
+
+body > p:nth-child(2) {
+  color: red;
+}
