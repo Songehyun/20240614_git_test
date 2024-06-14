@@ -17,7 +17,12 @@
 
     <script>
       const title = document.getElementById("title");
-      title.addEventListener("click");
+      title.addEventListener("click", changecolorh2());
+
+      function changecolorh2() {
+        title.style.color = "white";
+        title.style.backgroundColor = "black";
+      }
     </script>
   </body>
 </html>
